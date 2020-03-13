@@ -1,0 +1,142 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+* {
+	margin: 0;
+	border: 0;
+  padding: 0;
+	font: inherit;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*-----End Reset Css-----*/
+
+body {
+	line-height: initial;
+  font-family: 'Conv_Lucida Sans', sans-serif;
+}
+
+
+main {
+	width: 100%;
+	max-width: 720px;
+	min-width: 480px;
+	height: 100%;
+	margin: auto;
+	background: rgb(243, 243, 243);
+	box-shadow: 5px 5px 7px grey;
+}
+
+header {
+	background-color: #191919;
+}
+
+.logo {
+	width: 10%;
+	margin: 10px;
+}
+
+.banner {
+	display: flex;
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0,0,0, 0.3)), url("../images/banner.jpg");
+	height: 300px;
+	background-size: cover;
+	align-items: center;
+}
+
+.container {
+	margin: auto 20px;
+	color: white;
+	font-size: 33px;
+	font-weight: 500px;
+}
+
+ul {
+	padding-left: 20px;
+}
+
+section {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 15px auto;
+	height: 266px;
+}
+
+article {
+	flex: 33%;
+	align-items: center;
+	justify-content: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+article img {
+	display: block;
+  margin: auto;
+	width:60%;
+	border-radius: 100%;
+}
+
+article p {
+	color: #191919;
+	margin: 15px;
+	text-align: center;
+	font-weight: bold;
+}
+
+footer {
+	display: flex;
+	background-color: #191919;
+	text-align: justify;
+	text-align-last: center;
+}
+
+footer p {
+	margin: auto;
+	padding: 15px;
+	color: #f5c618;
+	font-weight: bold;
+}
+
+footer a {
+	margin: auto;
+	padding: 15px;
+	color: #515151;
+}
+
+a:hover {
+	color: #f5c618;
+}
